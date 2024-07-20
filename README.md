@@ -15,20 +15,21 @@ The provided C code implements the SHA-512 algorithm and includes functions for 
 **Compilation**
 To compile the code, use a C compiler such as `gcc`:
 
-sh
-Copy code
+```bash
 gcc -o sha512 sha512.c
-Running the Program
+```
+
+**Running the Program**
 Run the compiled program with:
 
-sh
-Copy code
+```bash
 ./sha512
+```
+
 You will be prompted to enter the text message and the round number. The program will then output the intermediate hash values for the specified round and the final hash value.
 
-Example
-sh
-Copy code
+**Example**
+```console
 Enter the text: Hello, world!
 Enter the round number: 10
 values for round 10:
@@ -42,4 +43,4 @@ H[6] = 1f83d9abfb41bd6b
 H[7] = 5be0cd19137e2179
 Final hash value:
 6a09e667f3bcc908bb67ae8584caa73b3c6ef372fe94f82ba54ff53a5f1d36f1510e527fade682d19b05688c2b3e6c1f1f83d9abfb41bd6b5be0cd19137e2179
-Code Description
+```

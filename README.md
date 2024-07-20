@@ -10,9 +10,10 @@ The provided C code implements the SHA-512 algorithm and includes functions for 
 - **Compression Function:** Implements the SHA-512 compression function to process message blocks.
 - **Padding and Message Processing:** Handles padding and processes message blocks according to SHA-512 specifications.
 - **User Interaction:** Accepts user input for the message and round number, displaying intermediate and final hash values.
-Usage
-Compilation
-To compile the code, use a C compiler such as gcc:
+
+## Usage
+**Compilation**
+To compile the code, use a C compiler such as `gcc`:
 
 sh
 Copy code

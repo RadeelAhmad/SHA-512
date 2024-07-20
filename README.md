@@ -1,1 +1,1 @@
-# SHA-512
+# SHA-512 Implementation in C
